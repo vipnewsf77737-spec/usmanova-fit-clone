@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Катя Усманова - программы тренировок</title>
+    <meta
+      name="description"
+      content="Адаптивная копия трех экранов лендинга UsmanovaFit для тестового задания."
+    />
+    <link rel="preconnect" href="https://fs.getcourse.ru" />
+    <link rel="preconnect" href="https://fs-thb01.getcourse.ru" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero" id="top">
+        <div class="shell hero__grid">
+          <div class="hero__content">
+            <p class="eyebrow">UsmanovaFit</p>
+            <h1>Приведите тело в форму с чемпионкой Катей Усмановой</h1>
+            <p class="hero__lead">без диет, голода и запретов<br />с пользой для здоровья</p>
+            <p class="hero__copy">
+              Похудеть, подтянуть попу и живот, набрать форму в зале, восстановиться после родов
+              - тренировки и питание под вашу цель.
+            </p>
+            <button class="button button--primary" type="button" data-scroll="#programs">
+              Выбрать программу
+            </button>
+            <p class="vpn-note">Для корректной работы сайта отключите VPN</p>
+          </div>
+
+          <div class="hero__media" aria-label="Катя Усманова">
+            <img
+              src="https://fs-thb02.getcourse.ru/fileservice/file/thumbnail/h/8d7e3aa384b597937b9504925ead6325.png/s/s1200x/a/934144/sc/68"
+              alt="Катя Усманова"
+            />
+            <div class="hero__badge">
+              <strong>580 000+</strong>
+              учениц тренируются с Катей
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="programs" id="programs">
+        <div class="shell">
+          <div class="section-head">
+            <p class="eyebrow">Тренировки дома</p>
+            <h2>Выберите программу под свою цель</h2>
+          </div>
+
+          <div class="program-grid">
+            <article class="program-card program-card--featured">
+              <img
+                src="https://fs.getcourse.ru/fileservice/file/download/a/934144/sc/129/h/9993958238de93cfb42027db3748b8fe.png"
+                alt="Метод Усмановой"
+              />
+              <div class="program-card__body">
+                <span class="pill">Флагман</span>
+                <h3>Метод Усмановой</h3>
+                <p>
+                  Освоите технику и втянетесь в регулярные тренировки - без травм и через силу.
+                </p>
+                <button class="button button--small" type="button" data-program="Метод Усмановой">
+                  Подробнее
+                </button>
+              </div>
+            </article>
+
+            <article class="program-card">
+              <img
+                src="https://fs.getcourse.ru/fileservice/file/download/a/934144/sc/243/h/b425fe3374dfff385aa5305db7156a5f.png"
+                alt="Марафон стройности"
+              />
+              <div class="program-card__body">
+                <span class="tag">Марафон</span>
+                <h3>Стройности</h3>
+                <p>Первый видимый результат за 21 день: уходит первый жир, появляется тонус.</p>
+                <button class="button button--small" type="button" data-program="Марафон стройности">
+                  Подробнее
+                </button>
+              </div>
+            </article>
+
+            <article class="program-card">
+              <img
+                src="https://fs.getcourse.ru/fileservice/file/download/a/934144/sc/265/h/d8acf94578d7aa9c71f7b487c818a4b4.png"
+                alt="Упругая попа 1.0"
+              />
+              <div class="program-card__body">
+                <span class="tag">Марафон</span>
+                <h3>Упругая попа 1.0</h3>
+                <p>Первый объем и подтянутость ягодиц с собственным весом.</p>
+                <button class="button button--small" type="button" data-program="Упругая попа 1.0">
+                  Подробнее
+                </button>
+              </div>
+            </article>
+
+            <article class="program-card">
+              <img
+                src="https://fs.getcourse.ru/fileservice/file/download/a/934144/sc/284/h/9c599cbd2f0e39fa1bd12c09072e4db2.png"
+                alt="Плоский живот"
+              />
+              <div class="program-card__body">
+                <span class="tag">Марафон</span>
+                <h3>Плоский живот</h3>
+                <p>Тренировки на глубокие мышцы пресса, которые отвечают за плоский живот.</p>
+                <button class="button button--small" type="button" data-program="Плоский живот">
+                  Подробнее
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="form">
+        <div class="shell contact__grid">
+          <div>
+            <p class="eyebrow">Не знаете, с чего начать?</p>
+            <h2>Подберем программу под вашу цель и уровень</h2>
+            <p class="contact__text">Это бесплатно и быстро. Заполните форму, а мы покажем рабочее состояние отправки.</p>
+            <div class="messengers" aria-label="Контакты">
+              <a href="https://t.me/UsmanovaSport_bot" target="_blank" rel="noreferrer">Telegram</a>
+              <a href="https://vk.ru/usmanovateam" target="_blank" rel="noreferrer">VK</a>
+              <a href="mailto:help@usmanovasport.ru">Email</a>
+            </div>
+          </div>
+
+          <form class="lead-form" novalidate>
+            <label>
+              Имя
+              <input name="name" type="text" placeholder="Анна" required />
+            </label>
+            <label>
+              Контакт
+              <input name="contact" type="text" placeholder="@telegram или телефон" required />
+            </label>
+            <label>
+              Цель
+              <select name="goal" required>
+                <option value="">Выберите цель</option>
+                <option>Похудеть</option>
+                <option>Подтянуть ягодицы</option>
+                <option>Восстановиться после родов</option>
+                <option>Наладить питание</option>
+              </select>
+            </label>
+            <button class="button button--primary" type="submit">Подобрать программу</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="shell shell--narrow">
+          <h2>Отвечаем на вопросы</h2>
+          <div class="faq-list">
+            <button class="faq-item" type="button" aria-expanded="false">
+              <span>Подойдет ли мне программа, если я никогда не тренировалась?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              Да. Есть программы для старта с нуля, где Катя показывает и объясняет каждое движение.
+            </div>
+
+            <button class="faq-item" type="button" aria-expanded="false">
+              <span>Сколько времени в день нужно на тренировки?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">От 20 до 45 минут в удобное время.</div>
+
+            <button class="faq-item" type="button" aria-expanded="false">
+              <span>Можно ли тренироваться дома?</span>
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              Да, большинство программ рассчитано на дом. Обычно достаточно коврика и минимального инвентаря.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal" aria-hidden="true">
+      <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal__close" type="button" aria-label="Закрыть">×</button>
+        <p class="eyebrow">Программа</p>
+        <h2 id="modalTitle">Метод Усмановой</h2>
+        <p>
+          Здесь можно показать подробности программы, срок доступа и кнопку перехода к оплате. В тестовом
+          задании модалка демонстрирует, что кнопки действительно работают.
+        </p>
+        <button class="button button--primary" type="button" data-scroll="#form">Получить консультацию</button>
+      </div>
+    </div>
+
+    <div class="cookie">
+      <span>Мы используем cookie-файлы для лучшей работы сайта.</span>
+      <button type="button">Ok</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
